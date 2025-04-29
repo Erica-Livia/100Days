@@ -3,7 +3,7 @@ import { CiCirclePlus } from "react-icons/ci";
 
 const AddNew = () => {
     return <>
-        <div className="text-light hover:text-lightGold transition-colors duration-300 cursor-pointer">
+        <div className="text-lightGold hover:text-strongGold transition-colors duration-300 cursor-pointer">
             <CiCirclePlus className="text-6xl"/>
         </div>
     </>
