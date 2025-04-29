@@ -1,20 +1,24 @@
 import React from "react";
 import Navbar from "../components/Navbar.jsx";
+import AddNew from "../components/AddNew.jsx";
 import { FaFire } from "react-icons/fa6";
 
 function Home() {
     return <>
         <div className="text-light">
-            <Navbar />
+            {/* Navigation Bar */}
+            <Navbar/>
 
             {/* Main content */}
             <div className="flex justify-center pt-16 pb-8">
                 <FaFire className="text-strongGold text-9xl"/>
             </div>
             <div className="flex justify-center">
-                <h1 className="text-4xl font-bold">20</h1>
+                <h1 className="text-4xl font-bold text-strongGold">20</h1>
             </div>
 
+            {/* Add New Goal Button */}
+            <div className="fixed bottom-8 right-8 z-50"><AddNew/></div>
         </div>
     </>
 }
