@@ -30,7 +30,49 @@ const Card = () => {
 
         </div>
 
-        {/* Card  */}
+        {/* Card 3 */}
+        <div className="bg-card mx-6 my-6 py-5 px-3 rounded-xl flex justify-between items-center">
+            <div>
+                {/* Title  */}
+                <div className="text-lg">Spanish</div>
+                {/* Description */}
+                <div className="text-gray-400 text-sm">Duolingo </div>
+            </div>
+            <div className="font-bold text-gray-400">
+                <h2>98/100</h2>
+            </div>
+
+        </div>
+
+        {/* Card 4 */}
+        <div className="bg-card mx-6 my-6 py-5 px-3 rounded-xl flex justify-between items-center">
+            <div>
+                {/* Title  */}
+                <div className="text-lg">Spanish</div>
+                {/* Description */}
+                <div className="text-gray-400 text-sm">Duolingo </div>
+            </div>
+            <div className="font-bold text-gray-400">
+                <h2>98/100</h2>
+            </div>
+
+        </div>
+
+        {/* Card 5 */}
+        <div className="bg-card mx-6 my-6 py-5 px-3 rounded-xl flex justify-between items-center">
+            <div>
+                {/* Title  */}
+                <div className="text-lg">Spanish</div>
+                {/* Description */}
+                <div className="text-gray-400 text-sm">Duolingo </div>
+            </div>
+            <div className="font-bold text-gray-400">
+                <h2>98/100</h2>
+            </div>
+
+        </div>
+
+        {/* Card 6 */}
         <div className="bg-card mx-6 my-6 py-5 px-3 rounded-xl flex justify-between items-center">
             <div>
                 {/* Title  */}

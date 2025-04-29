@@ -22,7 +22,7 @@ function Home() {
             <Card />
 
             {/* Add New Goal Button */}
-            <div className="fixed bottom-8 right-8 z-50"><AddNew/></div>
+            <div className="fixed bottom-10 right-10 z-50"><AddNew/></div>
         </div>
     </>
 }
